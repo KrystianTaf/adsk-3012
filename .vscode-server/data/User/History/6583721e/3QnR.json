@@ -1,0 +1,5 @@
+{
+    "remote.SSH.remotePlatform": {
+        "csa.edu.jkan.pl": "linux"
+    }
+}

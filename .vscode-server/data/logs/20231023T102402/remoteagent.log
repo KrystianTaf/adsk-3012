@@ -1,0 +1,37 @@
+2023-10-23 10:24:02.534 [info] 
+
+
+
+
+2023-10-23 10:24:02.534 [info] Extension host agent started.
+2023-10-23 10:24:02.593 [info] Started initializing default profile extensions in extensions installation folder. file:///home/s221516/.vscode-server/extensions
+2023-10-23 10:24:02.611 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/s221516/.vscode-server/extensions
+2023-10-23 10:24:03.050 [info] [127.0.0.1][97af051b][ManagementConnection] New connection established.
+2023-10-23 10:24:03.051 [info] [127.0.0.1][4dd7fb15][ExtensionHostConnection] New connection established.
+2023-10-23 10:24:03.059 [info] [127.0.0.1][4dd7fb15][ExtensionHostConnection] <22559> Launched Extension Host Process.
+2023-10-23 10:24:04.786 [error] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2023-10-23 10:24:32.439 [info] [127.0.0.1][97af051b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-10-23 10:24:32.474 [info] [127.0.0.1][4dd7fb15][ExtensionHostConnection] <22559> Extension Host Process exited with code: 0, signal: null.
+2023-10-23 10:24:32.475 [info] Cancelling previous shutdown timeout
+2023-10-23 10:24:32.475 [info] Last EH closed, waiting before shutting down
+2023-10-23 10:24:48.655 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-10-23 10:24:48.655 [info] Cancelling previous shutdown timeout
+2023-10-23 10:24:48.936 [info] [127.0.0.1][3759d4f3][ManagementConnection] New connection established.
+2023-10-23 10:24:49.050 [info] [127.0.0.1][15e6973d][ExtensionHostConnection] New connection established.
+2023-10-23 10:24:49.057 [info] [127.0.0.1][15e6973d][ExtensionHostConnection] <24102> Launched Extension Host Process.
+2023-10-23 10:24:51.043 [error] CodeExpectedError: Could not find pty on pty host
+    at S.L (/home/s221516/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:6839)
+    at S.updateTitle (/home/s221516/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:27:2630)
+    at Object.call (/home/s221516/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:17:5043)
+    at r.s (/home/s221516/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:5412)
+    at r.q (/home/s221516/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:4915)
+    at /home/s221516/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:15:4326
+    at invoke (/home/s221516/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:145)
+    at E.deliver (/home/s221516/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:2033)
+    at c.fire (/home/s221516/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:11:1671)
+    at process.F (/home/s221516/.vscode-server/bin/441438abd1ac652551dbe4d408dfcec8a499b8bf/out/vs/platform/terminal/node/ptyHostMain.js:9:20881)
+    at process.emit (node:events:526:28)
+    at emit (node:internal/child_process:938:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-10-23 10:29:48.656 [info] New EH opened, aborting shutdown
